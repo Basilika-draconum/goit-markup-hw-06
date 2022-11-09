@@ -320,8 +320,57 @@
         <div class="modal-wrap is-hidden" data-modal>
             <div class="modal-window">
                 <button data-modal-close type="button" class="close-button"></button>
-                <form action="#"></form>
+
+                <p class="title-modal">Залиште свої дані, ми вам передзвонимо</p>
+                <form action="#" class="form-modal">
+
+                    <div class="form-row">
+                        <label class="label-modal" for="user-name">Ім'я</label>
+                        <input type="text" name="user-name" class="input-modal">
+                        <svg class="icon icon-person icon-modal" width="12" height="12">
+                            <use xlink:href="./images/icons.svg#icon-person"></use>
+                        </svg>
+                    </div>
+                    <div class="form-row">
+                        <label class="label-modal" for="phone-number">Телефон</label>
+                        <input type="tel" name="phone-number" class="input-modal">
+                        <svg class="icon icon-phone-black icon-modal" width="13" height="13">
+                            <use xlink:href="./images/icons.svg#icon-phone-black"></use>
+                        </svg>
+                    </div>
+                    <div class="form-row">
+                        <label class="label-modal" for="email">Пошта</label>
+                        <input type="email" name="email" class="input-modal">
+                        <svg class="icon icon-letter icon-modal" width="15" height="12">
+                            <use xlink:href="./images/icons.svg#icon-letter"></use>
+                        </svg>
+                    </div>
+                    <div class="form-row">
+                        <label class="label-modal" for="comment">Коментар</label>
+                        <textarea name="comment" id="comment" rows="8" placeholder="Введіть текст"
+                            class="comment-modal"></textarea>
+                    </div>
+                    <div class="agreement">
+                        <input type="checkbox" name="mail-send" id="mail-send">
+                        <label for="mail-send">Погоджуюся з розсилкою та приймаю
+                        </label>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Умови договору</a>
+                    </div>
+                    <div class="btn-wrap-modal">
+                        <button type="submit" class="btn-modal">Відправити</button>
+                    </div>
+                    <!-- 
+
+
+                    <label for=""></label> -->
+                    <!-- <input type="text" name="">
+
+                    <button type="submit">Відправити</button> -->
+
+                </form>
+
             </div>
+
         </div>
     </main>
     <!--Підвал-->
