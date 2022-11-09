@@ -663,9 +663,9 @@ flex-direction: column;
     margin-bottom: 50px;
 }
 .filter-buttons{
-display: flex;
-gap: 8px;
-justify-content: center;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
 }
 
 
