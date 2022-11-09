@@ -414,17 +414,14 @@ margin-right: 30px;
 .close-button::after{
     transform: translate(-50%, -50%)rotate(45deg);
 }
-/* .close-button::before:hover,
-.close-button::before:focus,
-.close-button::after:hover,
-.close-button::after:hover{
+.close-button:hover::before,
+.close-button:hover::after{
     background-color: var(--accent-color);
-} */
-/* .close-button::before:hover,
-.close-button::before:focus{
-background-color: var(--accent-color);
-} */
-
+} 
+.close-button:focus::before,
+.close-button:focus::after {
+    background-color: var(--accent-color);
+}
 .title-modal {
     font-weight: 700;
     font-size: 20px;
@@ -433,7 +430,6 @@ background-color: var(--accent-color);
     margin-bottom: 12px;
     color: var(--primary-text-color);
 }
-
 .form-modal {
     max-width: 448px;
 
