@@ -414,10 +414,16 @@ margin-right: 30px;
 .close-button::after{
     transform: translate(-50%, -50%)rotate(45deg);
 }
-.close-button::before:hover,
+/* .close-button::before:hover,
+.close-button::before:focus,
+.close-button::after:hover,
+.close-button::after:hover{
+    background-color: var(--accent-color);
+} */
+/* .close-button::before:hover,
 .close-button::before:focus{
 background-color: var(--accent-color);
-}
+} */
 
 .title-modal {
     font-weight: 700;
