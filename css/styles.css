@@ -555,12 +555,12 @@ margin-bottom: 10px;
 .footer-block{
 display: flex;
 padding: 60px 0;
-gap: 70px;
 align-items: baseline;
 }
 .footer-first{
 display: flex;
 flex-direction: column;
+margin-right: 70px;
 }
 
 .logo-last{
@@ -590,6 +590,9 @@ flex-direction: column;
 .address-nav .link-address{
     color: var(--c-white);
 }
+.footer-second{
+    margin-right: 93px;
+}
 .socials-signin{
     color: var(--c-white);
     font-weight: 700;
@@ -612,6 +615,7 @@ flex-direction: column;
 }
 .form-subscribe{
     display: flex;
+    justify-content: space-between;
 }
 .email-subscribe{
     background-color: transparent;
