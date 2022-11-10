@@ -536,6 +536,7 @@ margin-bottom: 10px;
     outline: 1px solid var(--accent-color);
 }
 .agreement a{
+    color: var(--accent-color);
     text-decoration: underline;
 }
 
