@@ -508,16 +508,32 @@ margin-bottom: 10px;
     height: 15px;
     margin-right: 7px;
     border-radius: 2px;
-    border: 1px solid var(--secondary-text-color);
+    background-image: url(../images/box.svg);
+    /* border: 1px solid var(--secondary-text-color); */
     cursor: pointer;
 }
-.agreement input:checked + label::before {
+.agreement input:checked+label::before {
     background-color: var(--accent-color);
     border-radius: 2px;
     border: 1px solid var(--accent-color);
     background-image: url(../images/yes.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+.agreement input:focus+label::before {
+    background-image: url(../images/yes.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid var(--accent-color);
+    outline: 1px solid var(--accent-color);
+}
+
+.agreement input:checked:focus+label::before {
+    background-image: url(../images/yes.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid var(--accent-color);
+    outline: 1px solid var(--accent-color);
 }
 .agreement a{
     text-decoration: underline;
