@@ -496,7 +496,7 @@ margin-bottom: 10px;
     color: var(--secondary-text-color);
 }
 .agreement input{
-    display: none;
+    appearance: none;
 }
 .agreement label{
     position: relative;
