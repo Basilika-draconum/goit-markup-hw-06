@@ -461,7 +461,7 @@ margin-right: 30px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 11px 12px 11px 42px;
-    outline: none;
+    outline: transparent;
     cursor: pointer;
     transition-property: border, border-radius;
     transition-duration: 250ms;
@@ -487,6 +487,14 @@ margin-right: 30px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     cursor: pointer;
+    outline: transparent;
+    transition-property: border, border-radius;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.comment-modal:focus{
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
 }
 
 .agreement{ 
