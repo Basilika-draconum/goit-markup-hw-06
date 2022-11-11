@@ -380,7 +380,6 @@ margin-right: 30px;
     transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .close-button{
     position: absolute;
@@ -464,6 +463,9 @@ margin-right: 30px;
     padding: 11px 12px 11px 42px;
     outline: none;
     cursor: pointer;
+    transition-property: border, border-radius;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-modal::placeholder {
     color: rgba(117, 117, 117, 0.5);
@@ -471,8 +473,6 @@ margin-right: 30px;
 .input-modal:focus {
     border: 1px solid var(--accent-color);
     border-radius: 4px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-modal:focus + .icon-modal{
